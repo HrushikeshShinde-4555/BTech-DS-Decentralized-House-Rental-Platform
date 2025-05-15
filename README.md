@@ -1,4 +1,4 @@
-# Decentralized House Rental System
+# Decentralized House Rental Platform
 # Abstract
 Block chain innovation is a key instrument that performing in transactions. Block chain has got
 an impressive consideration from private and government foundation. This paper is to present
