@@ -1,0 +1,125 @@
+Week_4 
+Date- (10/2/2025 – 23/2/2025)
+
+PROPOSED SYSTEM 
+WORKING OF SYSTEM
+
+1.Solidity
+That That reliability is an object- acquainted, high- position language for enforcing smart contracts. 
+Smart Contracts are programs that govern the geste of accounts within the Ethereum state. reliability is a 
+curled- type language designed to target the Ethereum Virtual Machine (EVM). It's told by C, Python, and
+JavaScript. You can find further detailsabout which languages reliability has been inspired by in the 
+language influences section. reliability 
+is statically compartmented, supports heritage, libraries, and complex stoner- defined types, among 
+other features. With reliability, you can produce contracts for uses similar as voting, crowdfunding, 
+eyeless deals, and multi-signature holdalls. When planting contracts, you should use the rearmost 
+released interpretation of reliability. piecemeal from exceptional cases, only the rearmost 
+interpretation receives security fixes. likewise, breaking changes, as well as new features, are 
+introduced regularly.  
+
+2.Blockchain  
+It is decentralized/not centralized technology i.e. does not have database or save data on one single 
+server database is distributed all over the blockchain among the millions and billions of the nodes. 
+customer operations of affiliated businesses can read or tack sale records to the blockchain. sale 
+records submitted to any knot are validated and committed to the tally database on all the bumps of 
+blockchain network. Married deals are inflexible because each block is linked with its former block 
+by means of hash and hand values. Protocols similar as Gossip and Consensus insure that the 
+submitted deals are transferred to all bumps and committed on all blockchain bumps constantly. As 
+shown in Figure 1, blockchain ecosystem consists of blockchain customer, blockchain knot, 
+blockchain network, sale processor and agreement process. Blockchain customer is an operation 
+that creates sale communication in a specified format and submits it to blockchain knot through web 
+API. It may be any being operation, which posts sale communication to blockchain knot. guests are 
+confined using Public Key structure(PKI) technology at blockchain knot position. The Blockchain 
+knot is a garçon knot that runs blockchain services responsible for entering the sale and transmits 
+the sale to other blockchain bumps. With respect to the design, the knot participates in agreement 
+process to commit the block of sales data to tally database[7]. Blockchain is the technology which is 
+used for some different kind of processes which are NFT, cryptocurrency mainly it is used for 
+security purpose. With proper software and research, we can use blockchain technology in any kind 
+of work. 
+
+3. Ethereum  
+Ethereum is the digital currency but in the case of house rental system we are not only going to use 
+this in for transaction but also as gas fees for blockchain. As in this work we are going to use 
+blockchain which is based on the Ethereum which means it will give us the security and we will pay 
+it with the Ethereum this is the process how blockchain works in. We need to pay to use the 
+blockchain. In the case of payment, we should also have the Ethereum wallet which we will further 
+connect to the blockchain and website which makes it easy to accept and deny the request of 
+transaction at every time instance. 
+
+4. MetaMask 
+MetaMask is utility or wallet which is required to keep and use our currency aka gas fees it helps 
+to make it easy to use and store Ethereum. In general, MetaMask is a basic component of a  
+blockchain-based decentralized house rental system. It provides a user-friendly interface for 
+association with the Ethereum organize and its keen contracts, and enables secure and consistent 
+exchanges utilizing cryptocurrencies[9]. 
+
+5. Hardhat 
+Hardhat is the development environment for Ethereum and smart contract i.e. we can write and 
+deploy smart contract.Deploying is just the process of setting the smart contract on the blockchain. 
+
+6. Architecture 
+Architecture of our system is full of crucial process. The architecture that we have made or used to 
+make the working much smoother and easy. Website consists of some authentication, creation, 
+booking, etc. processes. First of all, it is important to state that website is made for owner and tenants 
+both so each user has to go through the authentication process. Verification process has to be done 
+at every time instance and step which is the main difference between decentralized system and 
+centralized system.
+
+ALGORITHM:
+
+1. Redux Global State Management (Frontend) 
+
+1. Initialize the Redux state with: 
+- apartments (array) 
+- apartment (object) 
+- reviews (array) 
+- reviewModal (string) 
+- securityFee (number) 
+- bookings (array) 
+- booking (object) 
+- timestamps (array) 
+2. Define actions to update the state: 
+- setApartments: Update the list of apartments. 
+- setApartment: Update details of a specific apartment. 
+- setReviews: Update reviews of an apartment. 
+- setReviewModal: Toggle review modal state. 
+- setSecurityFee: Update the security fee. 
+- setBookings: Update the list of bookings. 
+- setBooking: Update the details of a specific booking. 
+- setTimestamps: Set timestamps for bookings. 
+3. Implement reducers that listen to the actions and modify the state accordingly. 
+4. Create Redux store and integrate with the application. 
+5. Dispatch actions in UI components when relevant state changes are needed (e.g., 
+updating apartment details). 
+
+2. Hardhat Smart Contract Interaction (Backend) 
+
+1. Deploy the DappBnb smart contract on Ethereum network: 
+- Initialize contract with taxPercent and securityFee. 
+2. Define the contract functions:
+- createApartment(name, description, location, images, rooms, price): Creates a new apartment. 
+- updateApartment(id, newName, description, location, images, rooms, price): Updates apartment details. 
+- deleteApartment(id): Marks apartment as deleted. 
+- bookApartment(id, dates, amount): Books an apartment for specific dates. 
+- checkInApartment(id, bookingId): Marks tenant as checked in. 
+- refundBooking(id, bookingId): Cancels the booking and returns funds. 
+- getBookings(id): Retrieves all bookings for an apartment. 
+- getQualifiedReviewers(id): Gets the list of tenants qualified to review the apartment. 
+3. Simulate contract interaction with test cases: 
+- Test apartment creation, updates, and deletions. 
+- Test bookings, check-ins, refunds, and retrieving bookings and reviews. 
+
+3. Chai Testing of Smart Contract 
+
+1. Set up contract deployment before each test: 
+- Deploy contract and initialize it with owner, tenant, and contract details. 
+2. Define tests for apartment-related actions: 
+- Test apartment creation: Verify apartment details are stored. 
+- Test apartment update: Verify updated apartment details. 
+- Test apartment deletion: Ensure apartment deletion is successful. 
+3. Define tests for booking-related actions: 
+- Test booking success: Verify correct booking amount and availability. 
+- Test check-in: Verify tenant check-in status. 
+- Test refund: Verify that refund cancels the booking. 
+- Test booking invalidity with wrong ID and insufficient funds. 
+4. Use Chai assertions to verify that the contract behavior matches expectations.
