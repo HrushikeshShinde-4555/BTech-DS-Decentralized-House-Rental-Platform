@@ -1,0 +1,32 @@
+Week_7 
+Date- (17/3/2025 – 30/3/2025)
+
+IMPLEMENTATION OF FIRST MODULE
+
+Decentralized house rental system is the process which is supposed to work properly at any instance 
+for keep it working smoothly and keep it handy the easy GUI is very important if GUI is complex then 
+it will be very difficult for normal or new user to use. To keep GUI simple and attractive we have used 
+some programming languages and scripting languages. As we talked about smart contract before we 
+have used solidity in it but to make website or GUI only solidity is not enough, we have to use some 
+scripting languages like JavaScript also for the sake of designing we have to use some frameworks like 
+Tailwind CSS, utility-first approach and unraveled CSS surrender are the crucial reasons for its critical 
+influence on web application speed. making Tailwind CSS diminishes inconsequential CSS rules by particularly 
+counting utility classes to HTML components, the stylesheet basically smaller. Web applications 
+perform way superior and stack pages more quickly as a result of this record degree lessen [5]. In this 
+work we have also implemented some image input. In this decentralized house rental project, we have 
+to make it work similar to the other websites out in the market i.e. same process to rent or book the 
+room. But all the change happens when we connect whole system with the blockchain and make it 
+decentralized. 
+
+In the whole process of development, we have no need to connect the database with website if we 
+connect it anyway that will be the conflict of interest means system won’t be decentralized anymore 
+hence there was no use of database related techniques/technologies in whole process because all 
+processes are getting saved in blockchain automatically. 
+
+Smart contract is most important component of whole process we have defined some rules in smart 
+contract for booking and renting the apartment, booking apartment, review, refunding, deleting, 
+updating and renaming apartment. Some rules are like price should be more than 0, refunding must 
+be don’t within the given date i.e. if refunding is only applicable before 7 days of booking on the 8th day 
+it is not possible to get your money back in the worst case you need to contact owner directly. Owners 
+contact details will also be given on the page of booking. Our whole process is also connected with the 
+real time which also helps in keeping the records. 
