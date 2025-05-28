@@ -1,0 +1,83 @@
+Week_6 
+Date- (3/3/2025 – 16/3/2025) 
+
+METHODOLOGY
+
+1. Problem Identification and Requirement Analysis: 
+ 
+We started by identifying issues with conventional house rental systems, such as lack of 
+transparency, high intermediary fees, fraudulent listings, and disputes over payments or 
+agreements. Through discussions with tenants, landlords, and real estate agents, we gathered 
+both functional (booking, payment, smart contracts) and non-functional requirements 
+(security, scalability, decentralization). 
+ 
+2. Literature Review: 
+ 
+A thorough study of existing decentralized platforms and blockchain-based real estate solutions 
+was conducted. This included platforms like Propy, Rentberry, and traditional systems like 
+Airbnb. The review highlighted the benefits of blockchain—immutability, trustless 
+transactions, and automation through smart contracts—and helped us identify gaps in current 
+implementations. 
+ 
+3. System Design and Architecture: 
+ 
+The platform architecture was designed with a decentralized and modular approach. It consists 
+of three layers: 
+ 
+• Frontend Layer (user interface for tenants and landlords), 
+• Application Layer (smart contract logic and validation), 
+• Blockchain Layer (data storage, transaction records). 
+Design tools such as flowcharts, sequence diagrams, and system component 
+diagrams were used to define workflows and interactions. 
+ 
+4. Blockchain and Smart Contract Setup: 
+ 
+Ethereum blockchain (or a test network like Rinkeby) was selected for smart contract 
+deployment. Smart contracts were written in Solidity to handle listing creation, rental 
+agreements, escrow management, and dispute resolution. We also explored IPFS for 
+decentralized file storage (e.g., property images, legal documents). 
+ 
+5. Frontend and Backend Development 
+ 
+The user interface was built using React.js, allowing users to register, browse listings, initiate 
+rental requests, and manage agreements. Backend integration was handled using Node.js with 
+Web3.js to facilitate blockchain interactions, along with REST APIs for non-blockchain 
+operations like user authentication and search. 
+ 
+6. Wallet and Payment Integration 
+ 
+MetaMask integration enabled users to sign transactions and interact with smart contracts. 
+The payment module supported cryptocurrency (e.g., ETH or stablecoins), with escrow 
+functionality to hold rent until agreement conditions were met. 
+ 
+ 
+7. Listing and Rental Workflow Implementation 
+
+A rental workflow was implemented where landlords can list properties and tenants can book 
+rentals. Once both parties agree, the smart contract locks the rent in escrow, releases it on 
+contract completion, or refunds it based on predefined conditions. 
+
+8. Admin & Analytics Dashboard 
+
+A dashboard was built for administrators to monitor platform activity, handle disputes, and 
+view system metrics. Landlords were provided tools to manage listings, and tenants could 
+track rental history and transactions. 
+
+9. Testing and Evaluation 
+
+Comprehensive testing included: 
+• Unit testing of smart contracts using Truffle and Ganache, 
+• Integration testing of frontend–blockchain interactions, 
+• User testing to ensure usability and security. 
+Contract logic and payments were validated through multiple test scenarios, including edge 
+cases like tenant no-shows or early termination. 
+
+10. Deployment and Documentation 
+
+The final system was deployed on a blockchain testnet or live environment depending on 
+demonstration needs. Documentation included: 
+• Smart contract specifications, 
+• API documentation, 
+• User guides, 
+• Project reports with scope for future enhancements (e.g., DAO-based governance, token-based 
+incentives).
