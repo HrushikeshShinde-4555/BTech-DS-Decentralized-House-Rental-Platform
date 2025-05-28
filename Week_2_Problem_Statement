@@ -1,0 +1,72 @@
+Week_2 
+Date-(27/1/2025 – 2/2/2025)
+
+PROBLEM STATEMENT
+
+The house rental market has undergone a significant transformation in the digital age, with 
+centralized online platforms like Airbnb, Booking.com, and Vrbo making it easier than ever to connect 
+property owners with prospective tenants. These platforms have provided convenience, global reach, 
+and streamlined booking processes. However, their centralized nature introduces several inherent 
+challenges that impact trust, efficiency, and fairness in the rental ecosystem. 
+
+One of the most pressing issues is the lack of transparency in operations. Centralized rental platforms 
+control listing visibility, pricing algorithms, transaction records, and review systems. This opaque 
+environment gives the platform disproportionate power, enabling it to manipulate information, 
+impose non-transparent service charges, and prioritize certain listings for profit motives rather than 
+merit. As a result, both renters and property owners often operate under unclear conditions, with 
+limited insight into how decisions are made or disputes are resolved. 
+
+Another critical concern is the high service fees charged by these platforms. Intermediary fees often 
+range from 10% to 30% of the total rental cost. These fees reduce earnings for property owners and 
+increase expenses for tenants, making rentals less accessible and equitable. These charges are 
+primarily used to maintain centralized servers, manage user data, and mediate disputes—all of which 
+can potentially be handled more efficiently through decentralized solutions. 
+
+Moreover, centralized systems are vulnerable to data breaches and misuse of user information. User 
+profiles, financial data, transaction history, and private communications are stored on centralized 
+servers, which are attractive targets for hackers. Even without malicious intent, platforms can exploit 
+user data for targeted advertising, sell it to third parties, or impose data restrictions that limit user 
+autonomy. 
+
+Trust issues also persist. Many users have experienced fraudulent listings, misleading descriptions, 
+or dishonest reviews. The review system, often regarded as a core feature of centralized platforms, 
+can be manipulated through fake accounts or filtered feedback. Users are expected to trust a 
+platform’s internal moderation process, which is often biased, inconsistent, or unresponsive in cases 
+of disputes. 
+
+Furthermore, cross-border transactions and payments introduce additional complexities such as 
+currency conversion fees, delays in fund transfers, and jurisdictional restrictions. This hampers the 
+ability of property owners and tenants to engage in seamless global rentals, especially in regions with 
+limited access to modern banking infrastructure. 
+
+This project aims to develop a Decentralized House Rental Platform using blockchain to enable 
+transparent listings, automated rental agreements, immutable records, and direct payments. By 
+shifting from a platform-centric to a user-centric model, this system will improve trust, enhance 
+security, reduce costs, and democratize access to rental services globally.
+
+
+OBJECTIVES OF WORK
+
+The main objective of this project is to develop a Decentralized House Rental Platform that 
+utilizes blockchain technology to facilitate secure, transparent, and direct transactions between 
+property owners and tenants without the need for centralized intermediaries.
+The detailed objectives of the project are as follows: 
+
+1. To design a blockchain-based architecture that supports peer-to-peer rental transactions 
+using smart contracts. 
+2. To develop and implement smart contracts that automate rental agreements, payments, 
+security deposits, and refund mechanisms. 
+3. To ensure transparency and immutability of rental records, user interactions, and reviews 
+through blockchain integration. 
+4. To reduce dependency on centralized platforms and eliminate high intermediary fees and 
+unfair policies. 
+5. To provide secure, borderless payment options using cryptocurrencies or stablecoins. 
+6. To empower users with data ownership and decentralized identity (DID), allowing them 
+full control over their personal information and reputations. 
+7. To build a user-friendly interface for listing, searching, and booking properties in a 
+decentralized environment. 
+8. To introduce a fair and decentralized dispute resolution mechanism using smart 
+contracts or community voting protocols. 
+
+Through these objectives, the project aims to build a trustless, efficient, and user-controlled 
+alternative to conventional house rental systems.
