@@ -1,0 +1,94 @@
+Week_3 
+Date- (3/2/2025 – 9/2/2025)
+
+LITERATURE SURVEY
+
+• For almost 17 years, “bdHousing.com” has held the dominating position of of fering a traditional 
+and well-accepted stage for property owners to promote their assets for rent or sale, as well as 
+allowing property seekers to discover their dream house. As a result, it is now known as 
+Bangladesh’s largest online proper ty selling website .
+
+• “Renthome” is an internet marketplace that assists individuals in finding land, a cheap home, or 
+business space. Their goal is to provide our valued clients with the most up-to-date marketing 
+information and make it as easy as possible for them to contact brokers, developers, and landlords. 
+As Bangladesh’s leading rea- dy-to-buy-and-sell platform, they’ve designed their system to provide 
+you with as much information on your preferred property as possible at any moment .  
+
+• The famous Bangladeshi largest market place “Bikroy.com” has a partial sec tion for house rent or 
+buy-sell. Since then, the system has worked as a place to buy and sell used items.
+
+• Blockchain technology has emerged as a powerful tool to reimagine digital trust, data ownership, 
+and peer-to-peer interactions. Several research studies and industry reports suggest that 
+blockchain’s decentralized, immutable, and transparent nature can solve many challenges 
+associated with centralized systems. 
+
+• Ethereum-based protocols have been explored for their ability to record rental terms, enforce 
+time-bound agreements, and enable programmable deposits and refunds.
+
+REVIEW OF EXISTING SYSTEM(s):
+
+In the current real estate rental ecosystem, most transactions are facilitated through centralized 
+platforms such as Airbnb, Booking.com, Zillow Rentals, and traditional property management 
+software. These systems act as intermediaries between property owners and tenants by handling 
+listings, payments, reviews, and conflict resolution. While they have simplified the rental process 
+and enabled wide-scale digital adoption, they are heavily reliant on centralized databases and 
+authorities to validate, manage, and store data. 
+
+Airbnb, for example, provides users with a convenient interface to search for short-term rental 
+properties, make payments, and leave reviews. However, all listings, transactions, user data, and 
+reviews are stored and managed by Airbnb, giving it full control over the platform’s operation. 
+Similarly, Booking.com and Vrbo offer broad rental options but follow the same centralized 
+governance model, which raises concerns around fairness, censorship, and fees.Traditional rental 
+management systems used by real estate agencies and landlords also rely on centralized web 
+services for contract storage, tenant screening, rent payment, and complaint management. These 
+systems require trust in the service provider for security and fairness. 
+
+Emerging platforms like Rentberry and Propy have attempted to introduce partial 
+decentralization by integrating blockchain elements such as token payments or smart contracts. 
+However, many still operate within hybrid frameworks where core services (like dispute 
+resolution, reviews, and KYC) are controlled centrally. 
+
+These systems, while functional, continue to exhibit limitations related to transparency, costs, data 
+security, and reliance on third parties. 
+
+LIMITATIONS OF EXISTING SYSTEM(S):
+
+The existing systems for house rental in Bangladesh, such as bdHousing.com, Renthome, and 
+Bikroy.com, despite being popular and widely used, exhibit several critical limitations that prevent 
+them from fully addressing the modern needs of renters and property owners. These systems are 
+primarily centralized platforms, meaning they rely on a single entity to manage data, transactions, 
+and interactions between parties. This centralization introduces several challenges that hinder 
+transparency, efficiency, and security within the house rental process. 
+
+One of the fundamental issues with existing platforms is the lack of transparency in their 
+operations. Pricing models and the terms of rental agreements are often opaque, leaving both 
+tenants and landlords uncertain about the actual costs involved. The absence of clear pricing 
+breakdowns and service charges can lead to misunderstandings, resulting in dissatisfied users. 
+Furthermore, because these platforms control all data, there is a risk of information manipulation 
+or selective promotion of listings, often favoring specific properties or real estate developers for 
+financial or marketing reasons. This lack of independent verification of listing details undermines 
+trust and increases the potential for fraudulent activities. 
+
+Another significant limitation is the dependence on intermediaries, such as brokers, agents, and 
+platform administrators, to facilitate key aspects of the rental process, including communication, 
+payments, and contract management. These intermediaries add layers of complexity, which 
+increase the costs of using the platform due to high service fees and commission charges. 
+Additionally, this reliance results in delays in processing payments and finalizing rental 
+agreements, which creates frustration for both parties involved. The manual nature of these 
+transactions also means that users have limited control over the process, making the system less 
+efficient and more prone to human error or delays. 
+
+Overall, the limitations of current centralized house rental systems in Bangladesh are clear. They 
+rely heavily on intermediaries, suffer from data privacy issues, lack transparency, and provide 
+minimal user control or automation. These issues create inefficiencies and barriers to a more 
+secure, transparent, and fair rental process. Therefore, there is a growing demand for a 
+decentralized solution that leverages blockchain technology to address these shortcomings by 
+automating processes, ensuring data security, reducing costs, and offering a more transparent and 
+user-controlled environment for both landlords and tenants. 
+
+In this context, a blockchain-based decentralized house rental platform can significantly improve 
+the rental experience by eliminating intermediaries, ensuring tamper-proof records, automating 
+rental agreements and payments through smart contracts, and providing users with control over 
+their own data and reputation. Such a platform would offer increased trust, improved efficiency, 
+and reduced costs, making it a much-needed alternative to the limitations posed by centralized 
+systems.
